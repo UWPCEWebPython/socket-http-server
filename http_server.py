@@ -85,6 +85,21 @@ def response_path(path):
     # If the path is "make_time.py", then you may OPTIONALLY return the
     # result of executing `make_time.py`. But you need only return the
     # CONTENTS of `make_time.py`.
+	
+    # First you have to change the path to point inside of the webroot directory
+    
+    # Then IF THE PATH IS A DIRECTORY
+        # List the contents of the directory
+	# content = b"not implemented"
+        # mime_type = b"not implemented"
+	
+    # IF THE PATH POINTS TO A FILE
+        # List the contents of the directory
+	# content = b"not implemented"
+        # mime_type = b"not implemented"
+
+   # Then IF THE PATH IS NEITHER A DIRETORY NOR A FILE
+        # Raise a NameError
     
     content = b"not implemented"
     mime_type = b"not implemented"
